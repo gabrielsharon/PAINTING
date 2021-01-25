@@ -1,0 +1,22 @@
+.bg {
+    /* The image used */
+    background-image: url("../Image/wallapaper2.jpg");
+    
+  
+    /* Full height */
+    height: 150%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .bg {
+    
+      /* Full height */
+      height: 50%;
+      
+    }
+  }
